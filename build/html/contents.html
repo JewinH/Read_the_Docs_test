@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>what is new &mdash; Learning how to use sphinx 1.0.0 documentation</title>
+  <title>how to use Sphinx + Read the docs &mdash; Learning how to use sphinx 1.0.0 documentation</title>
   
 
   
@@ -34,7 +34,8 @@
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" /> 
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to Learning how to use sphinx’s documentation!" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -79,9 +80,15 @@
             
             
               <p class="caption"><span class="caption-text">Contents:</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="test1.html"># test1</a></li>
-<li class="toctree-l1"><a class="reference internal" href="test2.html">what day is it today?</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">how to use Sphinx + Read the docs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#install-sphinx-and-theme">install sphinx and theme</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#build-the-directory-tree">build the directory tree</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#change-the-theme">change the theme</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#use-the-make-stript-to-pack-your-book-to-html">use the make stript to pack your book to html</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#the-rest-of-all">the rest of all</a></li>
+</ul>
+</li>
 </ul>
 
             
@@ -127,7 +134,7 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>what is new</li>
+      <li>how to use Sphinx + Read the docs</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -146,10 +153,47 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="what-is-new">
-<h1>what is new<a class="headerlink" href="#what-is-new" title="Permalink to this headline">¶</a></h1>
-<p>welcome</p>
-<hr class="docutils" />
+  <div class="section" id="how-to-use-sphinx-read-the-docs">
+<h1>how to use Sphinx + Read the docs<a class="headerlink" href="#how-to-use-sphinx-read-the-docs" title="Permalink to this headline">¶</a></h1>
+<p>first of all , you need to install python</p>
+<div class="section" id="install-sphinx-and-theme">
+<h2>install sphinx and theme<a class="headerlink" href="#install-sphinx-and-theme" title="Permalink to this headline">¶</a></h2>
+<p>then open a <cite>cmd</cite> window and do the follow steps :</p>
+<ul class="simple">
+<li><p>pip install -U Sphinx</p></li>
+<li><p>pip install sphinx-rtd-theme</p></li>
+</ul>
+</div>
+<div class="section" id="build-the-directory-tree">
+<h2>build the directory tree<a class="headerlink" href="#build-the-directory-tree" title="Permalink to this headline">¶</a></h2>
+<p>now you can get to start to build your own book</p>
+<p><cite>cd</cite> to your github repositories folder,</p>
+<p>then open a <cite>cmd</cite> use command <cite>sphinx-quickstart</cite></p>
+</div>
+<div class="section" id="change-the-theme">
+<h2>change the theme<a class="headerlink" href="#change-the-theme" title="Permalink to this headline">¶</a></h2>
+<p>edit ./source/conf.py</p>
+<p>let html_theme = ‘sphinx_rtd_theme’.</p>
+</div>
+<div class="section" id="use-the-make-stript-to-pack-your-book-to-html">
+<h2>use the make stript to pack your book to html<a class="headerlink" href="#use-the-make-stript-to-pack-your-book-to-html" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>./make.bat html</p></li>
+</ul>
+</div>
+<div class="section" id="the-rest-of-all">
+<h2>the rest of all<a class="headerlink" href="#the-rest-of-all" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>commit and push to github.</p></li>
+<li><p>sign in read the docs and connect to your repository.</p></li>
+</ul>
+<p>after all</p>
+<p>everyone can read your documents in the web .</p>
+<p>really cooooool !</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
 </div>
 
 
@@ -157,6 +201,13 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to Learning how to use sphinx’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>

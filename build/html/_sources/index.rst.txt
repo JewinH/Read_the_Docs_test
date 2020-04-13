@@ -10,8 +10,7 @@ Welcome to Learning how to use sphinx's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   test1
-   test2
+   contents
 
 
 Indices and tables
