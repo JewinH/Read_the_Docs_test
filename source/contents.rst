@@ -23,8 +23,7 @@ now you can get to start to build your own book
 
 then open a `cmd` use command `sphinx-quickstart`
 
-.. image:: https://github.com/JewinH/Read_the_Docs_test/tree/master/source/img/directory_tree.png
-   :scale: 10
+.. image:: https://raw.githubusercontent.com/JewinH/Read_the_Docs_test/master/source/img/diretory_tree.png
    :align: center
 
 --------------------
