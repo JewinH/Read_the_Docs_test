@@ -21,7 +21,11 @@ now you can get to start to build your own book
 
 `cd` to your github repositories folder, 
 
-then open a `cmd` use command `sphinx-quickstart` 
+then open a `cmd` use command `sphinx-quickstart`
+
+.. image:: img/directory_tree.png
+   :scale: 10
+   :align: center
 
 --------------------
 change the theme 
